@@ -1,11 +1,39 @@
 @font-face {
-    font-family: lotaGrotesqueLight;
-    src: url('Lota-Grotesque-Alt-3-Regular.woff') format('woff');
+    font-family: 'lota_grotesque_alt_3Regular';
+    src: url('lotagrotesquealt3-regular.woff2') format('woff2'),
+         url('lotagrotesquealt3-regular.woff') format('woff'),
+         url('lotagrotesquealt3-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face {
-    font-family: lotaGrotesqueBold;
-    src: url('Lota-Grotesque-Alt-3-Semi-Bold.woff') format('woff');
+    font-family: 'lota_grotesque_alt_3Rgit';
+    src: url('lotagrotesquealt3-regularit.woff2') format('woff2'),
+         url('lotagrotesquealt3-regularit.woff') format('woff'),
+         url('lotagrotesquealt3-regularit.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'lota_grotesque_alt_3Semibold';
+    src: url('lotagrotesquealt3-semibold.woff2') format('woff2'),
+         url('lotagrotesquealt3-semibold.woff') format('woff'),
+         url('lotagrotesquealt3-semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: "LotaGrotesque_alt_3Light";
+  src: url('lotagrotesquealt3-light.woff2') format('woff2'), 
+       url('lotagrotesquealt3-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Variables */
@@ -19,13 +47,13 @@
 
     /* font color */
     --link-main-color: rgb(0, 2, 255);
-
+    
 }
 
 /* Main styles */
 
 *{
-    font-family: 'lotaGrotesqueLight';
+    font-family: 'lota_grotesque_alt_3Regular';
     box-sizing: border-box;
 }
 
@@ -37,6 +65,9 @@ body{
     padding: 0;
     overflow: hidden;
     cursor: grab;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
 }
 
 
@@ -464,7 +495,7 @@ video:hover{
 }
 
 .language a{
-    font-family: 'lotaGrotesqueBold';
+    font-family: 'lota_grotesque_alt_3Semibold';
     color: #000000;
     text-decoration: none;
 }
@@ -500,7 +531,7 @@ video:hover{
 }
 
 #go-back-link{
-    font-family: "lotaGrotesqueBold";
+    font-family: "lota_grotesque_alt_3Semibold";
     display: none;
     padding-top: 20px;
     /* margin-right: 28px; */
