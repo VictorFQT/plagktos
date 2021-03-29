@@ -78,6 +78,14 @@ h6, h1, p, li, ul{
 
 p{
     font-size: var(--type-body-regular);
+}   
+
+p.p1{
+    width: 362px;
+}
+
+p.p2{
+    width: 362px;
 }
 
 a{
@@ -178,7 +186,7 @@ section{
     position: absolute;
     left: 28px;
     top: 130px;
-    width: 400px;
+    width: 385px;
     /* cursor: -webkit-grab; cursor: grab; */
     /* width: 370px; */
 }
