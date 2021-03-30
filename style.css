@@ -47,7 +47,7 @@
 
     /* font color */
     --link-main-color: rgb(0, 2, 255);
-    
+
 }
 
 /* Main styles */
@@ -65,9 +65,9 @@ body{
     padding: 0;
     overflow: hidden;
     cursor: grab;
-	-webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
+    
 }
 
 
@@ -78,7 +78,7 @@ h6, h1, p, li, ul{
 
 p{
     font-size: var(--type-body-regular);
-}   
+}
 
 p.p1{
     width: 362px;
@@ -95,6 +95,19 @@ a{
 }
 
 li{
+    font-family: 'lota_grotesque_alt_3Semibold';
+    list-style: none;
+    font-size: 14px;
+}
+
+li-real{
+    font-family: 'lota_grotesque_alt_3Rgit';
+    list-style: none;
+    font-size: 14px;
+}
+
+li-d{
+    font-family: 'lota_grotesque_alt_3Regular';
     list-style: none;
     font-size: 14px;
 }
@@ -185,8 +198,8 @@ header{
 section{
     position: absolute;
     left: 28px;
-    top: 130px;
-    width: 385px;
+    top: 150px;
+    width: 422px;
     /* cursor: -webkit-grab; cursor: grab; */
     /* width: 370px; */
 }

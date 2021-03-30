@@ -808,26 +808,30 @@ firstProject.innerHTML = `
 
     <div class="project-content">
         <h6 class='title-project'>
-            Voiles et films en pellicule :
+            Voiles et films en pellicule:<br>
             une séance de navigation
         </h6>
         <p>
-            Une invitation à traverser l’Atlantique, à arrêter son regard sur le brouillard matinal, à
-            s’immerger sous l’eau et dans les images qu’elle projette. Voiles et films en pellicule :
-            une séance de navigation est une programmation pensée en collaboration avec
-            Christophe Piette dans le cadre du Nazcas Festival.
+            Voiles et films en pellicule : une séance de navigation est une invitation à traverser l’Atlantique. À poser son regard sur le brouillard matinal. À s’immerger sous l’eau et dans les images qu’elle reflète. Une programmation pensée avec Christophe Piette dans le cadre du Nazcas Festival aux Brasserie Atlas.
+            Christian Iionescu joue pour l’occasion une composition spécialement écrite pour le film <i>À la voile au tour du monde</i> sorti des archives de la CFWB.
         </p>
 
-        <ul>
-            <li>
-                À la voile au tour du monde, 1926 - musique spécialement pensée pour l'occasion par
-                Cristian Ionescu.
-            </li>
-            <li>Atlas, Alexandre Halot, Belgique, 1976</li>
-            <li>Letzte Worte, Werner Herzog, Allemagne, 1968</li>
-            <li>Narrows Inlet - David Rimmer (1980)</li>
-            <li>Moon’s Pool - Gunvor NELSON (1973)</li>
-            <li>Meridian Plain - Laura Kraning (2016)</li>
+        <ul><br>
+            <li>Trapline<li-d> 1976</li-d></li>
+            <li-real>Elie Epp</li-real>
+            <li>Atlas<li-d> 1978</li-d></li>
+            <li-real>Alexandre Halot</li-real>
+            <li>Letzte Worte<li-d> 1968</li-d></li>
+            <li-real>Werner Herzog</li-real>
+            <li>Narrows Inlet<li-d> 1980</li-d></li>
+            <li-real>David Rimmer</li-real>
+            <li>Moon’s Pool<li-d> 1973</li-d></li>
+            <li-real>Gunvor Nelson</li-real>
+            <li>Meridian Plain<li-d> 2016</li-d></li>
+            <li-real>Laura Kraning</li-real>
+            <li>À la voile au tour du monde<li-d> 1926</li-d></li>
+            <li-real>Inconnu</li-real>
+            
         </ul>
 
         <p class="copyrightphoto">© Moon's Pool - Gunvor Nelson <i>1973</i></p> 
