@@ -833,7 +833,6 @@ firstProject.innerHTML = `
             <li-real>Inconnu</li-real>
             
         </ul>
-
         <p class="copyrightphoto">© Moon's Pool - Gunvor Nelson <i>1973</i></p> 
     </div>
 </div>
@@ -845,20 +844,23 @@ secondProject.innerHTML = `
     <img src=${allMedia.images.second_i}>
 
     <div class="project-content">
-        <h6 class='title-project'>La périphérie</h6>
+        <h6 class='title-project'>Drogenwood</h6>
         <p>
             Une boîte de nuit fermée depuis des années ré-ouverte pour une nuit. Un photographe
             qui rencontre les habitant·e·s de maisons aperçues depuis le train. Une aciérie de la
-            zone industrielle de Détroit qui finit par ressembler à un mirage à force de l’observer.<br>
-            Pour clôturer le festival Periferia à Drogenbos, deux court-métrages et un ciné-concert
-            avec l’artiste sonore Pak Yan Lau. Une programmation pour penser et observer les
+            zone industrielle de Détroit qui finit par ressembler à un mirage à force de l’observer.<br><br>
+            Pour clôturer le festival <a href="https://www.periferiafestival.be/fr/a-propos/" style="color:#000000;">Periferia</a> à Drogenbos, deux court-métrages et un ciné-concert avec l’artiste sonore <a href="https://pakyanlau.com/" style="color:#000000;">Pak Yan&nbsp;Lau</a>. Une programmation pour observer les
             périphéries en décalant notre regard.
         </p>
 
         <ul>
-            <li>La disco resplandece - Chema Garcia Ibarra (2016)</li>
-            <li>L'An dernier quand le train passait - Pang-Chuan Huang (2018)</li>
-            <li>Three Landscapes - Peter Hutton ( 2016 )</li>
+        <br>            
+            <li>Three Landscapes<li-d> 2016</li-d></li>
+            <li-real>Peter Hutton</li-real>
+            <li>La disco resplandece<li-d> 2016</li-d></li>
+            <li-real>Chema Garcia Ibarra</li-real>
+            <li>Last Year When the Train Passed by<li-d> 2018</li-d></li>
+            <li-real>Pang-Chuan Huang</li-real>    
         </ul>
 
         <p class="copyrightphoto">© Le Doré Mathieu</p>
