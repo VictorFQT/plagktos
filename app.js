@@ -875,14 +875,20 @@ thirdProject.innerHTML = `
     <img src=${allMedia.images.third_i}>
 
     <div class="project-content">
-        <h6 class='title-project'>Le sport</h6>
+        <h6 class='title-project'>Starting-block</h6>
         <p>
-            Dans le cadre du festival Ear you Are, autour de la création sonore et radiophonique,
-            le grand écran du Nova reprend du service et défie un double duo de musicien·nes pour
-            une expérience de live scoring sur fond d’images de sport. Ça glisse, ça saute, ça
-            frappe, ça plonge. Écouter, ou regarder ? Ce soir, les rythmes se répondent et vous
-            invitent dans le jeu.
+            Dans le cadre du festival <a href="http://festival2019.acsr.be/" style="color:#000000;">Ear you Are</a>, autour de la création sonore et radiophonique, le grand écran du <a href="https://www.nova-cinema.org/?lang=fr" style="color:#000000;">Cinema Nova</a> reprend du service et défie un double duo de musicien·nes pour une expérience de live scoring sur un mash-up d’images de sport dénichées et montées par nos soins. Écouter, ou regarder ? Ici, les rythmes se répondent et vous invitent dans le jeu.
         </p>
+        <ul>
+        <br>            
+            <li>Plagktos<li-d> montage image</li-d></li>
+            <li>Clement Noury<li-d> guitare</li-d></li>
+            <li>Célia Jankowski<li-d> voix et violon à roue </li-d></li>
+            <li>Isabelle Sainte-Rose<li-d> violoncelle</li-d></li>
+            <li>Maxime Lacôme<li-d> voix et percussions</li-d></li>
+            <li>Nico Gitto<li-d> arbitrage</li-d></li>
+        </ul>
+
 
         <p class="copyrightphoto">© Maxime Taillez, Julien Hayard</p>
     </<div>
