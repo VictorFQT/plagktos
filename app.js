@@ -899,7 +899,7 @@ fourthProject.innerHTML = `
 <div class="grid">
     <img src=${allMedia.images.fourth_i}>
     <div class="project-content">
-        <h6 class='title-project'>La figure du monstre</h6>
+        <h6 class='title-project'>Le Cinebus</h6>
         <p>
             De 2015 à 2019 nous avons imaginées et mis en place des cycles de films, des ciné-concerts, des ciné-bouffes et des ciné-perfomances au sein d’un large collectif réuni autour du projet le <a href="https://www.facebook.com/cinebusbxl/" style="color:#000000;">Cinébus</a>. Ancien bus de la STIB reconverti en micro salle de cinéma au sein de l’Allée du Kaai avant de devenir itinérant et d’être acceuili dans des lieux amis comme le Labokube ou Projection Room.
             <br><br>
