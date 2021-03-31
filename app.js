@@ -901,18 +901,27 @@ fourthProject.innerHTML = `
     <div class="project-content">
         <h6 class='title-project'>La figure du monstre</h6>
         <p>
-            Un cycle en cinq séances consacré aux monstres étranges et aux créatures en tout genre
-            au sein du projet <a href="https://www.facebook.com/cinebusbxl/" target="blank">Cinébus</a>, un ancien bus de STIB reconverti en micro salle de cinéma.
+            De 2015 à 2019 nous avons imaginées et mis en place des cycles de films, des ciné-concerts, des ciné-bouffes et des ciné-perfomances au sein d’un large collectif réuni autour du projet le <a href="https://www.facebook.com/cinebusbxl/" style="color:#000000;">Cinébus</a>. Ancien bus de la STIB reconverti en micro salle de cinéma au sein de l’Allée du Kaai avant de devenir itinérant et d’être acceuili dans des lieux amis comme le Labokube ou Projection Room.
+            <br><br>
+            Parmi nos premiers cycles, la figure du monstre consacre cinq séances aux monstres étranges et aux créatures innatendues.<br><br>
+
         </p>
 
         <ul>
-            <li>The host - Bong Joon Ho (2006)</li>
-            <li>L’ordre - Jean-Daniel Pollet (1973)</li>
-            <li>Pumping Iron - George Butler, Robert Fiore (1977)</li>
-            <li>Leviathan - Lucien Castaing-Taylor, Verena Paravel (2012)</li>
-            <li>An American Werewolf in London (1981) - John Landis</li>
-            <li>Elen Dragoste - Eve De Campo (2013)</li>
-            <li>Under the Skin - Jonathan Glazer (2013)</li>
+            <li>L’ordre<li-d> 1973</li-d></li>
+            <li-real>Jean-Daniel Pollet</li-real>
+            <li>Pumping Iron<li-d> 1977</li-d></li>
+            <li-real>George Butler, Robert Fiore</li-real>
+            <li>Leviathan<li-d> 2012</li-d></li>
+            <li-real>Lucien Castaing-Taylor, Verena Paravel</li-real>
+            <li>Elen Dragoste<li-d> 2013</li-d></li>
+            <li-real>Eve De Campo</li-real>
+            <li>An American Werewolf in London<li-d> 1981</li-d></li>
+            <li-real>John Landis</li-real>
+            <li>The host<li-d> 2006</li-d></li>
+            <li-real>Bong Joon Ho</li-real>
+            <li>Under the Skin<li-d> 2013</li-d></li>
+            <li-real>Jonathan Glazer</li-real>
         </ul>
 
         <p class="copyrightphoto">© Julie Guiches</p>
