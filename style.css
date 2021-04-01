@@ -65,7 +65,7 @@ body{
     padding: 0;
     overflow: hidden;
     cursor: grab;
-    line-height: 1.3;
+    line-height: 1.24;
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
     
