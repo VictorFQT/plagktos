@@ -808,11 +808,11 @@ firstProject.innerHTML = `
 
     <div class="project-content">
         <h6 class='title-project'>
-            Voiles et films en pellicule:<br>
-            une séance de navigation
+            Nazcas Festival<br>
+            
         </h6>
         <p>
-            Voiles et films en pellicule : une séance de navigation est une invitation à traverser l’Atlantique. À poser son regard sur le brouillard matinal. À s’immerger sous l’eau et dans les images qu’elle reflète. Une programmation pensée avec Christophe Piette dans le cadre du Nazcas Festival aux Brasserie Atlas.
+            Voiles et films en pellicule : une séance de navigation est une invitation à traverser l’Atlantique. À poser son regard sur le brouillard matinal. À s’immerger sous l’eau et dans les images qu’elle reflète. Une programmation pensée avec Christophe Piette dans le cadre du <a href="https://feu.ultravnr.be/wp-content/uploads/2019/04/nazcas-4-depliant-4-final.pdf" style="color:#000000;">Nazcas Festival</a>Nazcas Festival aux Brasserie Atlas.
             Christian Iionescu joue pour l’occasion une composition spécialement écrite pour le film <i>À la voile au tour du monde</i> sorti des archives de la CFWB.
         </p>
 
@@ -833,8 +833,8 @@ firstProject.innerHTML = `
             <li-real>Inconnu</li-real>
             
         </ul>
-
-        <p class="copyrightphoto">© Moon's Pool - Gunvor Nelson <i>1973</i></p> 
+        <p class="copyrightphoto">© Moon's Pool - Gunvor Nelson</p>
+        <br>
     </div>
 </div>
 ` 
@@ -845,23 +845,28 @@ secondProject.innerHTML = `
     <img src=${allMedia.images.second_i}>
 
     <div class="project-content">
-        <h6 class='title-project'>La périphérie</h6>
+        <h6 class='title-project'>Drogenwood</h6>
+        
         <p>
             Une boîte de nuit fermée depuis des années ré-ouverte pour une nuit. Un photographe
             qui rencontre les habitant·e·s de maisons aperçues depuis le train. Une aciérie de la
-            zone industrielle de Détroit qui finit par ressembler à un mirage à force de l’observer.<br>
-            Pour clôturer le festival Periferia à Drogenbos, deux court-métrages et un ciné-concert
-            avec l’artiste sonore Pak Yan Lau. Une programmation pour penser et observer les
+            zone industrielle de Détroit qui finit par ressembler à un mirage à force de l’observer.<br><br>
+            Pour clôturer le festival <a href="https://www.periferiafestival.be/fr/a-propos/" style="color:#000000;">Periferia</a> à Drogenbos, deux court-métrages et un ciné-concert avec l’artiste sonore <a href="https://pakyanlau.com/" style="color:#000000;">Pak Yan&nbsp;Lau</a>. Une programmation pour observer les
             périphéries en décalant notre regard.
         </p>
 
         <ul>
-            <li>La disco resplandece - Chema Garcia Ibarra (2016)</li>
-            <li>L'An dernier quand le train passait - Pang-Chuan Huang (2018)</li>
-            <li>Three Landscapes - Peter Hutton ( 2016 )</li>
+        <br>            
+            <li>Three Landscapes<li-d> 2016</li-d></li>
+            <li-real>Peter Hutton</li-real>
+            <li>La disco resplandece<li-d> 2016</li-d></li>
+            <li-real>Chema Garcia Ibarra</li-real>
+            <li>Last Year When the Train Passed by<li-d> 2018</li-d></li>
+            <li-real>Pang-Chuan Huang</li-real>    
         </ul>
 
         <p class="copyrightphoto">© Le Doré Mathieu</p>
+        <br>
     </div>
 
 </div>
@@ -873,16 +878,23 @@ thirdProject.innerHTML = `
     <img src=${allMedia.images.third_i}>
 
     <div class="project-content">
-        <h6 class='title-project'>Le sport</h6>
+        <h6 class='title-project'>Starting-block</h6>
         <p>
-            Dans le cadre du festival Ear you Are, autour de la création sonore et radiophonique,
-            le grand écran du Nova reprend du service et défie un double duo de musicien·nes pour
-            une expérience de live scoring sur fond d’images de sport. Ça glisse, ça saute, ça
-            frappe, ça plonge. Écouter, ou regarder ? Ce soir, les rythmes se répondent et vous
-            invitent dans le jeu.
+            Dans le cadre du festival <a href="http://festival2019.acsr.be/" style="color:#000000;">Ear you Are</a>, autour de la création sonore et radiophonique, le grand écran du <a href="https://www.nova-cinema.org/?lang=fr" style="color:#000000;">Cinema Nova</a> reprend du service et défie un double duo de musicien·nes pour une expérience de live scoring sur un mash-up d’images de sport dénichées et montées par nos soins. Écouter, ou regarder ? Ici, les rythmes se répondent et vous invitent dans le jeu.
         </p>
+        <ul>
+        <br>            
+            <li>Plagktos<li-d> montage image</li-d></li>
+            <li>Clement Noury<li-d> guitare</li-d></li>
+            <li>Célia Jankowski<li-d> voix et violon à roue </li-d></li>
+            <li>Isabelle Sainte-Rose<li-d> violoncelle</li-d></li>
+            <li>Maxime Lacôme<li-d> voix et percussions</li-d></li>
+            <li>Nico Gitto<li-d> arbitrage</li-d></li>
+        </ul>
+
 
         <p class="copyrightphoto">© Maxime Taillez, Julien Hayard</p>
+        <br>
     </<div>
 </div>
 `
@@ -891,23 +903,33 @@ fourthProject.innerHTML = `
 <div class="grid">
     <img src=${allMedia.images.fourth_i}>
     <div class="project-content">
-        <h6 class='title-project'>La figure du monstre</h6>
+        <h6 class='title-project'>Le Cinebus</h6>
         <p>
-            Un cycle en cinq séances consacré aux monstres étranges et aux créatures en tout genre
-            au sein du projet <a href="https://www.facebook.com/cinebusbxl/" target="blank">Cinébus</a>, un ancien bus de STIB reconverti en micro salle de cinéma.
+            De 2015 à 2019 nous avons imaginées et mis en place des cycles de films, des ciné-concerts, des ciné-bouffes et des ciné-perfomances au sein d’un large collectif réuni autour du projet le <a href="https://www.facebook.com/cinebusbxl/" style="color:#000000;">Cinébus</a>. Ancien bus de la STIB reconverti en micro salle de cinéma au sein de l’Allée du Kaai avant de devenir itinérant et d’être acceuili dans des lieux amis comme le Labokube ou Projection Room.
+            <br><br>
+            Parmi nos premiers cycles, la figure du monstre consacre cinq séances aux monstres étranges et aux créatures innatendues.<br><br>
+
         </p>
 
         <ul>
-            <li>The host - Bong Joon Ho (2006)</li>
-            <li>L’ordre - Jean-Daniel Pollet (1973)</li>
-            <li>Pumping Iron - George Butler, Robert Fiore (1977)</li>
-            <li>Leviathan - Lucien Castaing-Taylor, Verena Paravel (2012)</li>
-            <li>An American Werewolf in London (1981) - John Landis</li>
-            <li>Elen Dragoste - Eve De Campo (2013)</li>
-            <li>Under the Skin - Jonathan Glazer (2013)</li>
+            <li>L’ordre<li-d> 1973</li-d></li>
+            <li-real>Jean-Daniel Pollet</li-real>
+            <li>Pumping Iron<li-d> 1977</li-d></li>
+            <li-real>George Butler, Robert Fiore</li-real>
+            <li>Leviathan<li-d> 2012</li-d></li>
+            <li-real>Lucien Castaing-Taylor, Verena Paravel</li-real>
+            <li>Elen Dragoste<li-d> 2013</li-d></li>
+            <li-real>Eve De Campo</li-real>
+            <li>An American Werewolf in London<li-d> 1981</li-d></li>
+            <li-real>John Landis</li-real>
+            <li>The host<li-d> 2006</li-d></li>
+            <li-real>Bong Joon Ho</li-real>
+            <li>Under the Skin<li-d> 2013</li-d></li>
+            <li-real>Jonathan Glazer</li-real>
         </ul>
 
         <p class="copyrightphoto">© Julie Guiches</p>
+        <br>
     </<div>
 
 </div>
