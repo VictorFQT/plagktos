@@ -833,7 +833,8 @@ firstProject.innerHTML = `
             <li-real>Inconnu</li-real>
             
         </ul>
-        <p class="copyrightphoto">© Moon's Pool - Gunvor Nelson <i>1973</i></p> 
+        <p class="copyrightphoto">© Moon's Pool - Gunvor Nelson</p>
+        <br>
     </div>
 </div>
 ` 
@@ -864,6 +865,7 @@ secondProject.innerHTML = `
         </ul>
 
         <p class="copyrightphoto">© Le Doré Mathieu</p>
+        <br>
     </div>
 
 </div>
@@ -891,6 +893,7 @@ thirdProject.innerHTML = `
 
 
         <p class="copyrightphoto">© Maxime Taillez, Julien Hayard</p>
+        <br>
     </<div>
 </div>
 `
@@ -925,6 +928,7 @@ fourthProject.innerHTML = `
         </ul>
 
         <p class="copyrightphoto">© Julie Guiches</p>
+        <br>
     </<div>
 
 </div>
