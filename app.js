@@ -906,7 +906,7 @@ fourthProject.innerHTML = `
     <div class="project-content">
         <h6 class='title-project'>Le Cinebus</h6>
         <p>
-            De 2015 à 2019 nous avons imaginées et mis en place des cycles de films, des ciné-concerts, des ciné-bouffes et des ciné-perfomances au sein d’un large collectif réuni autour du projet le <a href="https://www.facebook.com/cinebusbxl/" style="color:#000000;">Cinébus</a>. Ancien bus de la STIB reconverti en micro salle de cinéma au sein de l’Allée du Kaai avant de devenir itinérant et d’être acceuili dans des lieux amis comme le Labokube ou Projection Room.
+            De 2015 à 2019 nous avons imaginées et mis en place des cycles de films, des ciné-concerts, des ciné-bouffes et des ciné-perfomances au sein d’un large collectif réuni autour du projet le <a href="https://www.facebook.com/cinebusbxl/" style="color:#000000;">Cinébus</a>. Ancien bus de la STIB reconverti en micro salle de cinéma au sein de l’Allée du Kaai avant de devenir itinérant et d’être acceuili dans des lieux&nbsp;amis&nbsp;comme&nbsp;le&nbsp;Labokube&nbsp;ou&nbsp;Projection Room.
             <br><br>
             Parmi nos premiers cycles, la figure du monstre consacre cinq séances aux monstres étranges et aux créatures innatendues.<br><br>
 
