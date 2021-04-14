@@ -550,20 +550,23 @@ video:hover{
     cursor: pointer;
 }
 
-#go-back-link{
-    font-family: "lota_grotesque_alt_3Semibold";
-    display: none;
-    padding-top: 20px;
-    /* margin-right: 28px; */
-    /* position: fixed;
-    top: 30px;
-    right: -11px; */ 
+.fleche-position{
+    margin-right: 28px;
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+}
 
-    /* font-size: 15px;
+#go-back-link{
+    display: none;
+    margin-right: 28px;
     position: fixed;
     bottom: 29px;
     z-index: 1;
-    right: 5px; */
+    right: 5px;
+    width: 35px;
+    cursor: pointer;
 
 
 }
