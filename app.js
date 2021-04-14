@@ -812,8 +812,8 @@ firstProject.innerHTML = `
             
         </h6>
         <p>
-            Voiles et films en pellicule : une séance de navigation est une invitation à traverser l’Atlantique. À poser son regard sur le brouillard matinal. À s’immerger sous l’eau et dans les images qu’elle reflète. Une programmation pensée avec Christophe Piette dans le cadre du <a href="https://feu.ultravnr.be/wp-content/uploads/2019/04/nazcas-4-depliant-4-final.pdf" style="color:#000000;">Nazcas Festival</a> aux Brasserie Atlas.
-            Christian Iionescu joue pour l’occasion une composition spécialement écrite pour le film <i>À la voile au tour du monde</i> sorti des archives de la CFWB.
+            "Voiles et films en pellicule : une séance de navigation" est une invitation à traverser l’Atlantique. À poser son regard sur le brouillard matinal. À s’immerger sous l’eau et dans les images qu’elle reflète.<br><br>Une programmation pensée avec Christophe Piette dans le cadre du <a href="https://feu.ultravnr.be/wp-content/uploads/2019/04/nazcas-4-depliant-4-final.pdf" style="color:#000000;">Nazcas Festival</a> aux Brasserie Atlas.
+            Christian Iionescu joue pour l’occasion une composition spécialement écrite pour le film "À la voile au tour du monde" sorti des archives de la CFWB.
         </p>
 
         <ul><br>
@@ -1030,51 +1030,51 @@ firstChronique.innerHTML = `
         <h6 class='title-project'>Howardena Pindell 1980</h6>
         <p>Chronique du 2 février 2021 pour Radio Campus Bruxelles</p>
         <p>
-            Lorsque les salles de cinéma ont fermée leurs portes pour plusieurs semaines lors
-            du premier con nement, les spectateurs et spectatrices avides d’images et
+            Lorsque les salles de cinéma ont fermé leurs portes pour plusieurs semaines lors
+            du premier confinement, les spectateurs et spectatrices avides d’images et
             d’histoires comme nous, se sont dans un premier temps retrouvé·es totalement
             démuni·es. Comment faire pour retrouver sa dose, ce besoin absolu, cette
             sensation délicate qui nous parcourent le corps lorsque les lumières s’éteignent et
             qu’on s’apprête a embarquer dans un univers où l’on peut autant tomber dans le
-            vide de l’espace que braquer une banque ? Eh bien, on aura pas du attendre bien
+            vide de l’espace que braquer une banque ? Eh bien, on n’aura pas dû attendre bien
             longtemps. Puisque nous ne pouvions plus aller au cinéma, le cinéma est venu
-            jusqu’à nous. Et plutôt dix fois qu’une. Les initiatives of cielles et les autres pas tout
+            jusqu’à nous. Et plutôt dix fois qu’une. Les initiatives officielles et les autres pas tout
             à fait vraiment légale se sont multipliées. De la cinémathèque royale aux groupes
             Facebook au nom les plus obscures, il y a eu de quoi et il y a encore de quoi,
             satisfaire les cinéphiles les plus curieuses et curieux d’entre nous.
         </p>
 
         <p>
-            Parmi les différents initiatives, le groupe Facebook la loupe nous a rapidement fait
-            de l’oeil. Malle aux trésors et refuge pour lms devenus introuvables, en quelques
+            Parmi les différents initiatives, le groupe Facebook <b>la&nbsp;loupe</b> nous a rapidement fait
+            de l’oeil. Malle aux trésors et refuge pour les films devenus introuvables, en quelques
             mois, se se sont plus de 13 000 personnes qui ont rejoins le groupe et qui
-            quotidiennement partage des chiers de lms en tout genre. A une condition : que
+            quotidiennement partage des fichiers de films en tout genre. A une condition : que
             ceux-ci ne soit pas disponible ailleurs, en vidéo à la demande, en dvd ou lors de
-            projections en salle. De cette façon, le partage de lms ne se place pas en
+            projections en salle. De cette façon, le partage de films ne se place pas en
             opposition aux droits des artistes a vivre de leur oeuvres mais cherche à faire
-            connaitre et circuler les lms pour que ceux-ci ne tombent pas dans l’oubli ou ne
-            disparaissent entièrement. Une archive 2.0 donc, qui ne repose pas sur un lieu xe
+            connaitre et circuler les films pour que ceux-ci ne tombent pas dans l’oubli ou ne
+            disparaissent entièrement. Une archive 2.0 donc, qui ne repose pas sur un lieu fixe
             mais qui se déploie sur des milliers de disques durs répartis un peu partout.
         </p>
 
         <p>
-            Nous avons ainsi saisi l’occasion de cette chronique, pour vous proposer un lm
+            Nous avons ainsi saisi l’occasion de cette chronique, pour vous proposer un film
             que nous avons aussi partager sur la loupe et pour lequel nous avons fait des
-            sous-titres en français fait maison qui jusque là n’existait pas. 
+            <b>sous-titres en français fait maison</b> qui jusque là n’existait pas. 
         </p>
 
         <p>
-            <b>Free, white and 21</b> qui est donc le titre de cette oeuvre réalisée par Howardena
-            Pindell en 1980 est aussi une phrase ancrée dans l’histoire populaire américaine
+            <b>Free, white and 21</b> qui est donc le titre de cette oeuvre réalisée par <b>Howardena
+            Pindell</b> en 1980 est aussi une phrase ancrée dans l’histoire populaire américaine
             depuis au moins 1828. A l’époque, la loi qui réglemente le droit de vote vient d’être
-            modi ée. Il ne faut désormais plus être propriétaire foncier pour pouvoir voter mais
+            modifiée. Il ne faut désormais plus être propriétaire foncier pour pouvoir voter mais
             « simplement » être libre, blanc·che et avoir 21 ans. L’esclavage est encore
-            pratiquée dans de nombreux états, la ségrégation est présente partout et cette
+            pratiqué dans de nombreux états, la ségrégation est présente partout et cette
             phrase devient alors l’expression emblématique pour parler de ceux et celle pour
             qui « tout est possible » et que rien ne pourra arrêter. Cent ans plus tard,
-            l’expression perdure et se retrouve dans de nombreux lms hollywoodiens 
-            entre lesannées ’20 et ’40 et y est particulièrement utilisé par les femmes blanches comme
-            un argument qui proclament tant leurs indépendances que leurs privilèges
+            l’expression perdure et se retrouve dans de nombreux films hollywoodiens 
+            entre les années ’20 et ’40 et y est particulièrement <b>utilisé par les femmes blanches comme
+            un argument qui proclame tant leurs indépendances que leurs privilèges.</b>
         </p>
 
         <p>
@@ -1086,25 +1086,27 @@ firstChronique.innerHTML = `
             elle a été confrontée en tant que femme noire en Amérique dès son plus jeune âge
             jusque dans son travail dans le monde de l’art et avec des féministes blanches. La
             vidéo s’ouvre sur le visage d’une femme blanche incarnée par l’artiste, portant une
-            perruque blonde, ressemblant aux personnages féminins de ces lms
+            perruque blonde, ressemblant aux personnages féminins de ces films
             hollywoodiens des années 40, et qui tout au long de la vidéo revient ponctuer
-            certaines des expériences racontées par Pindell en décrédibilisant son récit. « Vous
-            devez vraiment être paranoïaque. Votre art n'est pas vraiment politique non plus. »
+            certaines des expériences racontées par Pindell en décrédibilisant son récit.
         </p>
 
         <p>
-            À la n des années 1980, Free White and 21 se met à circuler grâce au bouche à
+            À la fin des années 1980, Free White and 21 se met à circuler grâce au bouche à
             oreille et est principalement diffusé dans les universités et les milieux militants. Ceci
             dit, à l’époque, elle fut le sujet de nombreuses critiques, dont de nombreux artistes
-            blanc·ches considérant que les histoires était exagérées et le propos déplacé. Pour
-            nous, ces images d’Howardena Pindell sont aussi importantes aujourd’hui qu’hier
+            blanc·ches considérant que les histoires était exagérées et le propos déplacé.
+         </p>
+
+         <p>
+
+            Pour nous, ces images d’Howardena Pindell sont aussi importantes aujourd’hui qu’hier
             et si elles ont fait un pas vers vos écran grâce aux inépuisables archives du web, à
             vous désormais de vous emparer et, si comme nous, vous l’estimez nécessaire, de
             les faire circuler et d’en parler.
         </p>
 
-        <p>Free White et 21 est disponible dès maintenant sur notre page viméo.</p>
-        <p>Bon film!</p>
+        <p>Si vous avez manqué à l'appel et que vous souhaitez voir ce film, n'hésitez pas à nous écrire.</p>
 
     </<div>
 
