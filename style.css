@@ -488,11 +488,12 @@ video:hover{
 
 #copyright-text{
     visibility: hidden;
-    width: 363px;
+    width: 350px;
     margin-top: -20px;
     left: 0px;
     color: black;
     font-size: 14px;
+    text-align: justify;
     position: absolute;
     z-index: 1;
     text-decoration: none;
