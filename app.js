@@ -166,7 +166,7 @@ let theVideoProjects = [
         "content": thirdVideoProject,
     },
     {
-        "name": "les fabulations spéculatives",
+        "name": "les réseaux mouvants",
         "content": fourthVideoProject,
     }
 ]
@@ -812,8 +812,10 @@ firstProject.innerHTML = `
             
         </h6>
         <p>
-            "Voiles et films en pellicule : une séance de navigation" est une invitation à traverser l’Atlantique. À poser son regard sur le brouillard matinal. À s’immerger sous l’eau et dans les images qu’elle reflète.<br><br>Une programmation pensée avec Christophe Piette dans le cadre du <a href="https://feu.ultravnr.be/wp-content/uploads/2019/04/nazcas-4-depliant-4-final.pdf" style="color:#000000;">Nazcas Festival</a> aux Brasserie Atlas.
-            Christian Iionescu joue pour l’occasion une composition spécialement écrite pour le film "À la voile au tour du monde" sorti des archives de la CFWB.
+            "Voiles et films en pellicule : une séance de navigation" est une invitation à traverser l’Atlantique. À poser son regard sur le brouillard matinal. À s’immerger sous l’eau et dans les images qu’elle reflète.
+            <br><br>
+            Une&nbsp;programmation&nbsp;pensée&nbsp;avec&nbsp;Christophe Piette dans le cadre du <a href="https://feu.ultravnr.be/wp-content/uploads/2019/04/nazcas-4-depliant-4-final.pdf" style="color:#000000;">Nazcas Festival</a> aux Brasserie Atlas.
+            Christian Iionescu joue pour l’occasion une composition&nbsp;spécialement&nbsp;écrite&nbsp;pour le film "À la voile au tour du monde" sorti des archives de la CFWB.
         </p>
 
         <ul><br>
