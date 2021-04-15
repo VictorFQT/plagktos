@@ -812,8 +812,10 @@ firstProject.innerHTML = `
             
         </h6>
         <p>
-            "Voiles et films en pellicule : une séance de navigation" est une invitation à traverser l’Atlantique. À poser son regard sur le brouillard matinal. À s’immerger sous l’eau et dans les images qu’elle reflète.<br><br>Une programmation pensée avec Christophe Piette dans le cadre du <a href="https://feu.ultravnr.be/wp-content/uploads/2019/04/nazcas-4-depliant-4-final.pdf" style="color:#000000;">Nazcas Festival</a> aux Brasserie Atlas.
-            Christian Iionescu joue pour l’occasion une composition spécialement écrite pour le film "À la voile au tour du monde" sorti des archives de la CFWB.
+            "Voiles et films en pellicule : une séance de navigation" est une invitation à traverser l’Atlantique. À poser son regard sur le brouillard matinal. À s’immerger sous l’eau et dans les images qu’elle reflète.
+            <br><br>
+            Une&nbsp;programmation&nbsp;pensée&nbsp;avec&nbsp;Christophe Piette dans le cadre du <a href="https://feu.ultravnr.be/wp-content/uploads/2019/04/nazcas-4-depliant-4-final.pdf" style="color:#000000;">Nazcas Festival</a> aux Brasserie Atlas.
+            Christian Iionescu joue pour l’occasion&nbsp;une&nbsp;composition&nbsp;spécialement&nbsp;écrite pour le film "À la voile au tour du monde" sorti des archives de la CFWB.
         </p>
 
         <ul><br>
@@ -852,7 +854,7 @@ secondProject.innerHTML = `
             Une boîte de nuit fermée depuis des années ré-ouverte pour une nuit. Un photographe
             qui rencontre les habitant·e·s de maisons aperçues depuis le train. Une aciérie de la
             zone industrielle de Détroit qui finit par ressembler à un mirage à force de l’observer.<br><br>
-            Pour clôturer le festival <a href="https://www.periferiafestival.be/fr/a-propos/" style="color:#000000;">Periferia</a> à Drogenbos, deux court-métrages et un ciné-concert avec l’artiste sonore <a href="https://pakyanlau.com/" style="color:#000000;">Pak Yan&nbsp;Lau</a>. Une programmation pour observer les
+            Pour&nbsp;clôturer&nbsp;le&nbsp;festival&nbsp;<a href="https://www.periferiafestival.be/fr/a-propos/" style="color:#000000;">Periferia</a>&nbsp;à&nbsp;Drogenbos, deux court-métrages et un ciné-concert avec l’artiste&nbsp;sonore&nbsp;<a href="https://pakyanlau.com/" style="color:#000000;">Pak&nbsp;Yan&nbsp;Lau</a>.&nbsp;Une&nbsp;programmation pour observer les
             périphéries en décalant notre regard.
         </p>
 
@@ -881,7 +883,7 @@ thirdProject.innerHTML = `
     <div class="project-content">
         <h6 class='title-project'>Starting-block</h6>
         <p>
-            Dans le cadre du festival <a href="http://festival2019.acsr.be/" style="color:#000000;">Ear you Are</a>, autour de la création sonore et radiophonique, le grand écran du <a href="https://www.nova-cinema.org/?lang=fr" style="color:#000000;">Cinema Nova</a> reprend du service et défie un double duo de musicien·nes pour une expérience de live scoring sur un mash-up d’images de sport dénichées et montées par nos soins. Écouter, ou regarder ? Ici, les rythmes se répondent et vous invitent dans le jeu.
+            Dans le cadre du festival <a href="http://festival2019.acsr.be/" style="color:#000000;">Ear you Are</a>, organisé par <a href="http://acsr.be/" style="color:#000000;">l'acsr</a>, autour de la création sonore et radiophonique, le grand écran du <a href="https://www.nova-cinema.org/?lang=fr" style="color:#000000;">Cinema Nova</a> reprend du service et défie un double duo de musicien·nes pour une expérience de live scoring sur un mash-up d’images de sport dénichées et montées par nos soins. Écouter, ou regarder ? Ici, les rythmes se répondent et vous invitent dans le jeu.
         </p>
         <ul>
         <br>            
