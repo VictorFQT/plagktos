@@ -166,7 +166,7 @@ let theVideoProjects = [
         "content": thirdVideoProject,
     },
     {
-        "name": "les flammes",
+        "name": "les fabulations spéculatives",
         "content": fourthVideoProject,
     }
 ]
