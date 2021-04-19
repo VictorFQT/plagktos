@@ -814,7 +814,7 @@ firstProject.innerHTML = `
         <p>
             "Voiles et films en pellicule : une séance de navigation" est une invitation à traverser l’Atlantique. À poser son regard sur le brouillard matinal. À s’immerger sous l’eau et dans les images qu’elle reflète.
             <br><br>
-            Une&nbsp;programmation&nbsp;pensée&nbsp;avec&nbsp;Christophe Piette dans le cadre du <a href="https://feu.ultravnr.be/wp-content/uploads/2019/04/nazcas-4-depliant-4-final.pdf" style="color:#000000;">Nazcas Festival</a> aux Brasserie Atlas.
+            Une&nbsp;programmation&nbsp;pensée&nbsp;avec&nbsp;Christophe Piette dans le cadre du <a href="https://feu.ultravnr.be/wp-content/uploads/2019/04/nazcas-4-depliant-4-final.pdf">Nazcas Festival</a> aux Brasserie Atlas.
             Christian Iionescu joue pour l’occasion&nbsp;une&nbsp;composition&nbsp;spécialement&nbsp;écrite pour le film "À la voile au tour du monde" sorti des archives de la CFWB.
         </p>
 
@@ -854,7 +854,7 @@ secondProject.innerHTML = `
             Une boîte de nuit fermée depuis des années ré-ouverte pour une nuit. Un photographe
             qui rencontre les habitant·e·s de maisons aperçues depuis le train. Une aciérie de la
             zone industrielle de Détroit qui finit par ressembler à un mirage à force de l’observer.<br><br>
-            Pour&nbsp;clôturer&nbsp;le&nbsp;festival&nbsp;<a href="https://www.periferiafestival.be/fr/a-propos/" style="color:#000000;">Periferia</a>&nbsp;à&nbsp;Drogenbos, deux court-métrages et un ciné-concert avec l’artiste&nbsp;sonore&nbsp;<a href="https://pakyanlau.com/" style="color:#000000;">Pak&nbsp;Yan&nbsp;Lau</a>.&nbsp;Une&nbsp;programmation pour observer les
+            Pour&nbsp;clôturer&nbsp;le&nbsp;festival&nbsp;<a href="https://www.periferiafestival.be/fr/a-propos/">Periferia</a>&nbsp;à&nbsp;Drogenbos, deux court-métrages et un ciné-concert avec l’artiste&nbsp;sonore&nbsp;<a href="https://pakyanlau.com/">Pak&nbsp;Yan&nbsp;Lau</a>.&nbsp;Une&nbsp;programmation pour observer les
             périphéries en décalant notre regard.
         </p>
 
@@ -883,7 +883,7 @@ thirdProject.innerHTML = `
     <div class="project-content">
         <h6 class='title-project'>Starting-block</h6>
         <p>
-            Dans le cadre du festival <a href="http://festival2019.acsr.be/" style="color:#000000;">Ear you Are</a>, organisé par <a href="http://acsr.be/" style="color:#000000;">l'acsr</a>, autour de la création sonore et radiophonique, le grand écran du <a href="https://www.nova-cinema.org/?lang=fr>Cinema Nova</a> reprend du service et défie un double duo de musicien·nes pour une expérience de live scoring sur un mash-up d’images de sport dénichées et montées par nos soins. Écouter, ou regarder ? Ici, les rythmes se répondent et vous invitent dans le jeu.
+            Dans le cadre du festival <a href="http://festival2019.acsr.be/">Ear you Are</a>, organisé par <a href="http://acsr.be/">l'acsr</a>, autour de la création sonore et radiophonique, le grand écran du <a href="https://www.nova-cinema.org/?lang=fr">Cinema Nova</a> reprend du service et défie un double duo de musicien·nes pour une expérience de live scoring sur un mash-up d’images de sport dénichées et montées par nos soins. Écouter, ou regarder ? Ici, les rythmes se répondent et vous invitent dans le jeu.
         </p>
         <ul>
         <br>            
@@ -908,7 +908,7 @@ fourthProject.innerHTML = `
     <div class="project-content">
         <h6 class='title-project'>Le Cinebus</h6>
         <p>
-            De 2015 à 2019 nous avons imaginées et mis en place des cycles de films, des ciné-concerts, des ciné-bouffes et des ciné-perfomances au sein d’un large collectif réuni autour du projet le <a href="https://www.facebook.com/cinebusbxl/" style="color:#000000;">Cinébus</a>. Ancien bus de la STIB reconverti en micro salle de cinéma au sein de l’Allée du Kaai avant de devenir itinérant et d’être acceuili dans des lieux&nbsp;amis&nbsp;comme&nbsp;le&nbsp;Labokube&nbsp;ou&nbsp;Projection Room.
+            De 2015 à 2019 nous avons imaginées et mis en place des cycles de films, des ciné-concerts, des ciné-bouffes et des ciné-perfomances au sein d’un large collectif réuni autour du projet le <a href="https://www.facebook.com/cinebusbxl/">Cinébus</a>. Ancien bus de la STIB reconverti en micro salle de cinéma au sein de l’Allée du Kaai avant de devenir itinérant et d’être acceuili dans des lieux&nbsp;amis&nbsp;comme&nbsp;le&nbsp;Labokube&nbsp;ou&nbsp;Projection Room.
             <br><br>
             Parmi nos premiers cycles, la figure du monstre consacre cinq séances aux monstres étranges et aux créatures innatendues.<br><br>
 
