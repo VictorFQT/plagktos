@@ -14,7 +14,8 @@ const thirdWord = document.getElementById("third-word");
 const firstProject = document.getElementById('first-project');
 const secondProject= document.getElementById('second-project');
 const thirdProject = document.getElementById('third-project');
-const fourthProject = document.getElementById('fourth-project'); 
+const fourthProject = document.getElementById('fourth-project');
+const fifthProject = document.getElementById('fifth-project');
 
     //Project video variables
 const vprojectOne = document.getElementById('vproject-one')
@@ -87,7 +88,8 @@ const allMedia =
         "fourth_i": "./assets/img/la_figure_du_monstre_1.jpg",
         "fifth_i": "./assets/img/mer_2.jpg",
         "six_i": "./assets/img/bateau-trait.png",
-        "seven_i": "./assets/img/mer_1.jpg"
+        "seven_i": "./assets/img/mer_1.jpg",
+        "eight_i": "./assets/img/shhh.jpg"
     },
 
     "ceci_videos": {
@@ -143,6 +145,10 @@ let theProjects = [
     {
         "name": "la figure du monstre",
         "content": fourthProject,
+    },
+    {
+        "name": "le muet",
+        "content": fifthProject,
     }
 
 ]
@@ -932,6 +938,32 @@ fourthProject.innerHTML = `
         </ul>
 
         <p class="copyrightphoto">© Julie Guiches</p>
+        <br><br>
+    </<div>
+
+</div>
+`
+
+fifthProject.innerHTML = `
+<div class="grid">
+    <img src=${allMedia.images.fifth_i}>
+    <div class="project-content">
+        <h6 class='title-project'>Shhh Festival</h6>
+        <p>
+            À l’occasion de la seconde édition du Shhh festival, un festival de cinéma muet à Ostende, nous avons été invités par Monokino pour penser une programmation où les spectateurs poserait un pied dans l’eau.<br><br>Le voyage commence à Paris, où Téo Hernandez filme l'eau de la Seine comme une matière frétillante et lumineuse. Avec Brouillard - Passage # 14, Alexandre Larose nous emmène pour une promenade kaléidoscopique sur un sentier qui nous mène jusqu’au lac. Enfin, nous terminons par une immersion dans le monde aquatique et luxuriant de Barbara Hammer avec Pond and Waterfall. Ces trois courts-métrages projetés en pellicules sont accompagnés par les sons de clarinette mélodieux et hypnotiques de Ben Bertrand.<br><br>
+        </p>
+
+        <ul>
+            <li>L’eau de la Seine<li-d> 1982-1983</li-d></li>
+            <li-real>Theo Hernandez</li-real>
+            <li>Brouillard - Passage 14<li-d> 2013</li-d></li>
+            <li-real>Alexandre Larose</li-real>
+            <li>Pond and Waterfall<li-d> 1982</li-d></li>
+            <li-real>Barbara Hammer</li-real>
+            
+        </ul>
+
+        <p class="copyrightphoto">© Pond and Waterfall</p>
         <br><br>
     </<div>
 
