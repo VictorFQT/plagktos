@@ -883,7 +883,7 @@ thirdProject.innerHTML = `
     <div class="project-content">
         <h6 class='title-project'>Starting-block</h6>
         <p>
-            Dans le cadre du festival <a href="http://festival2019.acsr.be/" style="color:#000000;">Ear you Are</a>, organisé par <a href="http://acsr.be/" style="color:#000000;">l'acsr</a>, autour de la création sonore et radiophonique, le grand écran du <a href="https://www.nova-cinema.org/?lang=fr" style="color:#000000;">Cinema Nova</a> reprend du service et défie un double duo de musicien·nes pour une expérience de live scoring sur un mash-up d’images de sport dénichées et montées par nos soins. Écouter, ou regarder ? Ici, les rythmes se répondent et vous invitent dans le jeu.
+            Dans le cadre du festival <a href="http://festival2019.acsr.be/" style="color:#000000;">Ear you Are</a>, organisé par <a href="http://acsr.be/" style="color:#000000;">l'acsr</a>, autour de la création sonore et radiophonique, le grand écran du <a href="https://www.nova-cinema.org/?lang=fr>Cinema Nova</a> reprend du service et défie un double duo de musicien·nes pour une expérience de live scoring sur un mash-up d’images de sport dénichées et montées par nos soins. Écouter, ou regarder ? Ici, les rythmes se répondent et vous invitent dans le jeu.
         </p>
         <ul>
         <br>            
