@@ -1107,8 +1107,9 @@ firstChronique.innerHTML = `
             vous désormais de vous emparer et, si comme nous, vous l’estimez nécessaire, de
             les faire circuler et d’en parler.
         </p>
-
+        <center>/</center><br>
         <p>Si vous avez manqué à l'appel et que vous souhaitez voir ce film, n'hésitez pas à nous écrire.</p>
+        <br><br>
 
     </<div>
 
