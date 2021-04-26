@@ -436,6 +436,14 @@ video:hover{
     padding: 2px;
 }
 
+#news-link{
+    color: rgb(0, 2, 255);
+}
+
+#facebook-link{
+    color: rgb(0, 2, 255);
+}
+
 .lc-french{
     position: absolute;
     margin-top: -24px;
@@ -738,6 +746,15 @@ video:hover{
         /* display: inline-block; */
         font-size: var(--type-body-regular);
     }
+    
+    #news-link{
+    color: #ffffff;
+}
+
+
+    #facebook-link{
+    color: #ffffff;
+}
 
     .link-contact a{
         background-image: url('./assets/brand/bleu_2.jpg');
@@ -829,6 +846,9 @@ video:hover{
     #ecran-flottant{
         position: relative;
         margin: 80px auto 0 auto;
+        left: 0;
+        right: 0; 
+        top: 0;
     }
 
     .place{
