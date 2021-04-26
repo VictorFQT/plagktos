@@ -260,7 +260,6 @@ section{
     font-size: var(--type-body-regular);
 }
 #second-word{
-    font-size: 0;
     text-decoration: none;
 }
 #second-word span{
@@ -619,7 +618,7 @@ video:hover{
         padding-top: 5%;
         line-height: 130%; */
 
-        width: 330px;
+        width: 328px;
         position: fixed;
         left: 28px;
         top: 80px;
@@ -640,6 +639,10 @@ video:hover{
 
     .about-plagktos{
         width: 95%;
+    }
+    
+    .place{
+    padding-left: 25px
     }
 
     .place-container{
