@@ -1,7 +1,7 @@
 //Global variables 
 
     //Logo variable
-    const logoName = document.getElementById('logo-name');
+const logoName = document.getElementById('logo-name');
 
     //Project variables
 const projects = document.getElementById("projects");
@@ -166,7 +166,7 @@ let theVideoProjects = [
         "content": thirdVideoProject,
     },
     {
-        "name": "flammes",
+        "name": "underground networks",
         "content": fourthVideoProject,
     }
 ]
@@ -174,7 +174,7 @@ let theVideoProjects = [
 const forVideoProjects = theVideoProjects.length;
 let addNumberVideo = forVideoProjects - 2;
 
-//Videos
+// Ceci videos
 
 const ceciVideos = [
     {
@@ -206,6 +206,8 @@ const ceciVideos = [
 
 const forCeciVideos = ceciVideos.length;
 
+//Places
+
 let thePlaces = [
     {
         "name": "Ear you are Festival",
@@ -234,6 +236,8 @@ let thePlaces = [
 ]
 
 const forPlaces = thePlaces.length;
+
+//Chroniques
 
 const chroniques = [
     {
@@ -352,10 +356,10 @@ thePlaces = newPlaces.slice().concat(thePlaces)
 
     //HTML Template for random places words 
 iciContainerOne.innerHTML = `
-    <span id='${newPlaces[0].name}'>here</span>
+    <span id='${newPlaces[0].name}'>ici</span>
 `
 iciContainerTwo.innerHTML = `
-    <span id='${newPlaces[1].name}'>here</span>
+    <span id='${newPlaces[1].name}'>ici</span>
 `
 
 // Random screen position function
@@ -425,6 +429,7 @@ function removeMedia () {
     newNames.forEach(name => {
         name.content.style.display = "none"
         name.content.style.transform = "translate3d(0,0,0)";
+        
     })
 
     ceciVideos.forEach(name => {
@@ -455,7 +460,7 @@ function mappingProjects(element, myint){
     const divProject = document.getElementById(element.name+myint);
     
     divProject.addEventListener('click', function(){
-
+        console.log('click')
         remove()
 
         element.content.style.display = "block";
@@ -463,11 +468,10 @@ function mappingProjects(element, myint){
         // random position numbers for the project container position
         
         positionRandom()
-        
+
         element.content.style.left = null;
         element.content.style.top = vpos+"px"; 
         element.content.style.right = hpos+"px";
-       
 
     }) 
 
@@ -486,19 +490,23 @@ function mappingVideoProjects(element, myint){
     const divProject = document.getElementById(element.name+myint);
     
     divProject.addEventListener('click', function(){
-
+        
+        
+        
         remove()
 
         element.content.style.display = "block";
-        
-        const sound = element.content.getElementsByTagName('video')[0]
 
-        sound.style.display = "block";
+        const sound = element.content.getElementsByTagName('video')[0]
+        console.log(sound.style.transform)
         sound.play()
 
+        sound.style.display = "block";
+
+        console.log(sound)
         const videoLoad = sound.readyState;
         console.log(videoLoad)
-
+        
         // random position numbers for the project container position
         
         positionRandom()
@@ -577,7 +585,9 @@ randomCeci.addEventListener('click', function(){
 
     const videoLoad = sound.readyState;
     console.log(videoLoad)
-    
+
+    const test = sound.readyState;
+    console.log(test)
 
     // random position for Ceci videos
 
@@ -586,8 +596,6 @@ randomCeci.addEventListener('click', function(){
     element.content.style.left = null;
     element.content.style.top = vpos+"px"; 
     element.content.style.right = hpos+"px";
-       
-    
     
 })
 
@@ -610,7 +618,7 @@ randomChroniques.addEventListener('click', function(){
     element.content.style.left = null;
     element.content.style.top = vpos+"px"; 
     element.content.style.right = hpos+"px";
-       
+
 })
 
     //Display chroniques archives
@@ -648,6 +656,7 @@ screenContainer.addEventListener('click', function(){
 
 //Make all -div class main-container- a draggable element
 
+
 Array.from(divMainContainer).forEach(function(item){
     
     dragElement(item)
@@ -667,6 +676,7 @@ Array.from(divMainContainer).forEach(function(item){
             document.onmouseup = closeDragElement;
             // call a function whenever the cursor moves:
             document.onmousemove = elementDrag;   
+            
         }
     
         function elementDrag(e) {
@@ -691,6 +701,8 @@ Array.from(divMainContainer).forEach(function(item){
     }
 
 })
+
+
 
 
 //Dark mode
@@ -796,29 +808,36 @@ firstProject.innerHTML = `
 
     <div class="project-content">
         <h6 class='title-project'>
-            Voiles et films en pellicule :
-            une séance de navigation
+            Nazcas Festival<br>
+            
         </h6>
         <p>
-            An invitation to cross the Atlantic, to stop and look at the morning fog, to immerse
-            yourself underwater and in the images it projects. Voiles et films en pellicule: a
-            navigation session is a program designed in collaboration with Christophe Piette as part
-            of the Nazcas Festival.
+            "Voiles et films en pellicule : une séance de navigation" is a invitation to cross the Atlantic, to stop and look at the morning fog, to immerse yourself underwater and in the images it projects.
+            <br><br>
+            A program curated with Christophe Piette for <a href="https://feu.ultravnr.be/wp-content/uploads/2019/04/nazcas-4-depliant-4-final.pdf">Nazcas Festival</a> at Brasserie Atlas.
+            Christian Iionescu is playing for the occasion a composition specially written for the film "À la voile au tour du monde" from the CFWB archives.
         </p>
 
-        <ul>
-            <li>
-                À la voile au tour du monde, 1926 - musique spécialement pensée pour l'occasion par
-                Cristian Ionescu.
-            </li>
-            <li>Atlas, Alexandre Halot, Belgique, 1976</li>
-            <li>Letzte Worte, Werner Herzog, Allemagne, 1968</li>
-            <li>Narrows Inlet - David Rimmer (1980)</li>
-            <li>Moon’s Pool - Gunvor NELSON (1973)</li>
-            <li>Meridian Plain - Laura Kraning (2016)</li>
+        <ul><br>
+            <li>Trapline<li-d> 1976</li-d></li>
+            <li-real>Elie Epp</li-real>
+            <li>Atlas<li-d> 1978</li-d></li>
+            <li-real>Alexandre Halot</li-real>
+            <li>Letzte Worte<li-d> 1968</li-d></li>
+            <li-real>Werner Herzog</li-real>
+            <li>Narrows Inlet<li-d> 1980</li-d></li>
+            <li-real>David Rimmer</li-real>
+            <li>Moon’s Pool<li-d> 1973</li-d></li>
+            <li-real>Gunvor Nelson</li-real>
+            <li>Meridian Plain<li-d> 2016</li-d></li>
+            <li-real>Laura Kraning</li-real>
+            <li>À la voile au tour du monde<li-d> 1926</li-d></li>
+            <li-real>Inconnu</li-real>
+            
         </ul>
+        <p class="copyrightphoto">© Moon's Pool - Gunvor Nelson</p>
+        <br><br>
 
-        <p class="copyrightphoto">© Moon's Pool - Gunvor Nelson <i>1973</i></p> 
     </div>
 </div>
 ` 
@@ -829,23 +848,29 @@ secondProject.innerHTML = `
     <img src=${allMedia.images.second_i}>
 
     <div class="project-content">
-        <h6 class='title-project'>periphery</h6>
+        <h6 class='title-project'>Drogenwood</h6>
+        
         <p>
             A nightclub closed for years reopened for one night. A photographer who meets the
             inhabitants of houses seen from the train. A steel mill in the Detroit industrial area that
-            ends up looking like a mirage by observing it.
-            To close the Periferia festival in Drogenbos, two short films and a film concert with
-            sound artist Pak Yan Lau. A program to think and observe peripheries by shifting our
+            ends up looking like a mirage by observing it.<br><br>
+            To close the Periferia festival in Drogenbos, two short films and a film concert with the
+            sound artist <a href="https://pakyanlau.com/">Pak&nbsp;Yan&nbsp;Lau</a>. A program to think and observe peripheries by shifting our
             gaze.
         </p>
 
         <ul>
-            <li>La disco resplandece - Chema Garcia Ibarra (2016)</li>
-            <li>L'An dernier quand le train passait - Pang-Chuan Huang (2018)</li>
-            <li>Three Landscapes - Peter Hutton ( 2016 )</li>
+        <br>            
+            <li>Three Landscapes<li-d> 2016</li-d></li>
+            <li-real>Peter Hutton</li-real>
+            <li>La disco resplandece<li-d> 2016</li-d></li>
+            <li-real>Chema Garcia Ibarra</li-real>
+            <li>Last Year When the Train Passed by<li-d> 2018</li-d></li>
+            <li-real>Pang-Chuan Huang</li-real>    
         </ul>
 
         <p class="copyrightphoto">© Le Doré Mathieu</p>
+        <br><br>
     </div>
 
 </div>
@@ -857,15 +882,23 @@ thirdProject.innerHTML = `
     <img src=${allMedia.images.third_i}>
 
     <div class="project-content">
-        <h6 class='title-project'>sport</h6>
-        <p>
-            As part of the Ear you Are festival around sound art and radio creation,
-            the Nova’s big screen returns to service and challenges a double duo of musicians for a
-            live scoring experience on a mashup of sports images. They slide, jump, hit, dive. Listen
-            or watch ? Tonight, the rhythms meet and invite you into the game.
+        <h6 class='title-project'>Starting-block</h6>
+        <p> As part of the <a href="http://festival2019.acsr.be/">Ear you Are</a> festival around sound art and radio creation,
+            the <a href="https://www.nova-cinema.org/?lang=fr">Cinema Nova</a>’s big screen returns to service and challenges a double duo of musicians for a live scoring experience on a mashup of sports images founded and edited by plagktos. They slide, jump, hit, dive. Listen or watch ? Tonight, the rhythms meet and invite you into the game.
         </p>
+        <ul>
+        <br>            
+            <li>Plagktos<li-d> montage image</li-d></li>
+            <li>Clement Noury<li-d> guitare</li-d></li>
+            <li>Célia Jankowski<li-d> voix et violon à roue </li-d></li>
+            <li>Isabelle Sainte-Rose<li-d> violoncelle</li-d></li>
+            <li>Maxime Lacôme<li-d> voix et percussions</li-d></li>
+            <li>Nico Gitto<li-d> arbitrage</li-d></li>
+        </ul>
+
 
         <p class="copyrightphoto">© Maxime Taillez, Julien Hayard</p>
+        <br><br>
     </<div>
 </div>
 `
@@ -874,23 +907,33 @@ fourthProject.innerHTML = `
 <div class="grid">
     <img src=${allMedia.images.fourth_i}>
     <div class="project-content">
-        <h6 class='title-project'>La figure du monstre</h6>
+        <h6 class='title-project'>Le Cinebus</h6>
         <p>
-            Un cycle en cinq séances consacré aux monstres étranges et aux créatures en tout genre
-            au sein du projet <a href="https://www.facebook.com/cinebusbxl/" target="blank">Cinébus</a>, un ancien bus de STIB reconverti en micro salle de cinéma.
+            From 2015 to 2019 we have imagined and set up film cycles, film-concerts, films & food and film-perfomances within a large collective gathered around the <a href="https://www.facebook.com/cinebusbxl/">Cinébus</a>. An old bus converted into a micro-cinema in the Allée du Kaai before becoming mobile and being hosted in places like le&nbsp;Labokube&nbsp;or&nbsp;Projection Room.
+            <br><br>
+            Among our first cycles, the monster figure devotes five sessions to strange monsters and unexpected creatures.<br><br>
+
         </p>
 
         <ul>
-            <li>The host - Bong Joon Ho (2006)</li>
-            <li>L’ordre - Jean-Daniel Pollet (1973)</li>
-            <li>Pumping Iron - George Butler, Robert Fiore (1977)</li>
-            <li>Leviathan - Lucien Castaing-Taylor, Verena Paravel (2012)</li>
-            <li>An American Werewolf in London (1981) - John Landis</li>
-            <li>Elen Dragoste - Eve De Campo (2013)</li>
-            <li>Under the Skin - Jonathan Glazer (2013)</li>
+            <li>L’ordre<li-d> 1973</li-d></li>
+            <li-real>Jean-Daniel Pollet</li-real>
+            <li>Pumping Iron<li-d> 1977</li-d></li>
+            <li-real>George Butler, Robert Fiore</li-real>
+            <li>Leviathan<li-d> 2012</li-d></li>
+            <li-real>Lucien Castaing-Taylor, Verena Paravel</li-real>
+            <li>Elen Dragoste<li-d> 2013</li-d></li>
+            <li-real>Eve De Campo</li-real>
+            <li>An American Werewolf in London<li-d> 1981</li-d></li>
+            <li-real>John Landis</li-real>
+            <li>The host<li-d> 2006</li-d></li>
+            <li-real>Bong Joon Ho</li-real>
+            <li>Under the Skin<li-d> 2013</li-d></li>
+            <li-real>Jonathan Glazer</li-real>
         </ul>
 
         <p class="copyrightphoto">© Julie Guiches</p>
+        <br><br>
     </<div>
 
 </div>
@@ -899,20 +942,24 @@ fourthProject.innerHTML = `
 //HTML Template Projects Videos
 
 firstVideoProject.innerHTML = `
-    <video src=${allMedia.project_videos.first_vp} type="video/mp4" preload="auto" autoplay="false" ></video>
+    <video src=${allMedia.project_videos.first_vp} type="video/mp4" preload="auto" 
+    ></video>
     <p class="copyright-video">Asparagus - Suzan Pitt <i>1979</i></p>
 `
 
 secondVideoProject.innerHTML = `
-    <video src=${allMedia.project_videos.second_vp} type="video/mp4" preload="auto" autoplay="false" ></video>
+    <video src=${allMedia.project_videos.second_vp} type="video/mp4" preload="auto" 
+    ></video>
     <p class="copyright-video">Salomé - Téo Hernandez <i>1976</i></p>
 `
 thirdVideoProject.innerHTML = `
-    <video src=${allMedia.project_videos.third_vp} type="video/mp4" preload="auto" autoplay="false" ></video>
+    <video src=${allMedia.project_videos.third_vp} type="video/mp4" preload="auto" 
+    ></video>
     <p class="copyright-video">Brouillard Passage 14 - Alexandre Larose <i>2014</i></p>
 `
 fourthVideoProject.innerHTML = `
-    <video src=${allMedia.project_videos.fourth_vp} type="video/mp4" preload="auto" autoplay="false" ></video>
+    <video src=${allMedia.project_videos.fourth_vp} type="video/mp4" preload="auto" 
+    ></video>
     <p class="copyright-video">Born in Flames - Lizzie Borden <i>1983</i></p>
 `
 
@@ -920,7 +967,8 @@ fourthVideoProject.innerHTML = `
 //HTML Template for Ceci Videos
 
 firstVideo.innerHTML = `
-    <video src=${allMedia.ceci_videos.first_v} type="video/mp4" preload="auto" autoplay="false" ></video>
+    <video src=${allMedia.ceci_videos.first_v} type="video/mp4" preload="auto"
+    ></video>
     <p class="copyright-video">Breakaway - Bruce Conner <i>1966</i></p>
 `
 
@@ -933,15 +981,18 @@ thirdVideo.innerHTML = `
     <p class="copyright-video">Ink in Milk - Gernot Wieland <i>2018</i></p>
 `
 fourthVideo.innerHTML = `
-    <video src=${allMedia.ceci_videos.fourth_v} type="video/mp4" preload="auto" autoplay="false" ></video>
+    <video src=${allMedia.ceci_videos.fourth_v} type="video/mp4" preload="auto" 
+    ></video>
     <p class="copyright-video">Kika opowiesci o czlowieku - Bogdan Dziworski <i>1983</i></p>
 `
 fifthVideo.innerHTML = `
-    <video src=${allMedia.ceci_videos.fifth_v} type="video/mp4" preload="auto" autoplay="false" ></video>
+    <video src=${allMedia.ceci_videos.fifth_v} type="video/mp4" preload="auto"
+    ></video>
     <p class="copyright-video">Ofrenda - Claudio Caldini <i>1978</i></p>
 `
 sixVideo.innerHTML = `
-    <video src=${allMedia.ceci_videos.six_v} type="video/mp4" preload="auto" autoplay="false" ></video>
+    <video src=${allMedia.ceci_videos.six_v} type="video/mp4" preload="auto" 
+    ></video>
     <p class="copyright-video">The Girl Chewing Gum - John Smith <i>1976</i></p>
 `
 
@@ -990,51 +1041,51 @@ firstChronique.innerHTML = `
         <h6 class='title-project'>Howardena Pindell 1980</h6>
         <p>Chronique du 2 février 2021 pour Radio Campus Bruxelles</p>
         <p>
-            Lorsque les salles de cinéma ont fermée leurs portes pour plusieurs semaines lors
-            du premier con nement, les spectateurs et spectatrices avides d’images et
+            Lorsque les salles de cinéma ont fermé leurs portes pour plusieurs semaines lors
+            du premier confinement, les spectateurs et spectatrices avides d’images et
             d’histoires comme nous, se sont dans un premier temps retrouvé·es totalement
             démuni·es. Comment faire pour retrouver sa dose, ce besoin absolu, cette
             sensation délicate qui nous parcourent le corps lorsque les lumières s’éteignent et
             qu’on s’apprête a embarquer dans un univers où l’on peut autant tomber dans le
-            vide de l’espace que braquer une banque ? Eh bien, on aura pas du attendre bien
+            vide de l’espace que braquer une banque ? Eh bien, on n’aura pas dû attendre bien
             longtemps. Puisque nous ne pouvions plus aller au cinéma, le cinéma est venu
-            jusqu’à nous. Et plutôt dix fois qu’une. Les initiatives of cielles et les autres pas tout
+            jusqu’à nous. Et plutôt dix fois qu’une. Les initiatives officielles et les autres pas tout
             à fait vraiment légale se sont multipliées. De la cinémathèque royale aux groupes
             Facebook au nom les plus obscures, il y a eu de quoi et il y a encore de quoi,
             satisfaire les cinéphiles les plus curieuses et curieux d’entre nous.
         </p>
 
         <p>
-            Parmi les différents initiatives, le groupe Facebook la loupe nous a rapidement fait
-            de l’oeil. Malle aux trésors et refuge pour lms devenus introuvables, en quelques
+            Parmi les différents initiatives, le groupe Facebook <b>la&nbsp;loupe</b> nous a rapidement fait
+            de l’oeil. Malle aux trésors et refuge pour les films devenus introuvables, en quelques
             mois, se se sont plus de 13 000 personnes qui ont rejoins le groupe et qui
-            quotidiennement partage des chiers de lms en tout genre. A une condition : que
+            quotidiennement partage des fichiers de films en tout genre. A une condition : que
             ceux-ci ne soit pas disponible ailleurs, en vidéo à la demande, en dvd ou lors de
-            projections en salle. De cette façon, le partage de lms ne se place pas en
+            projections en salle. De cette façon, le partage de films ne se place pas en
             opposition aux droits des artistes a vivre de leur oeuvres mais cherche à faire
-            connaitre et circuler les lms pour que ceux-ci ne tombent pas dans l’oubli ou ne
-            disparaissent entièrement. Une archive 2.0 donc, qui ne repose pas sur un lieu xe
+            connaitre et circuler les films pour que ceux-ci ne tombent pas dans l’oubli ou ne
+            disparaissent entièrement. Une archive 2.0 donc, qui ne repose pas sur un lieu fixe
             mais qui se déploie sur des milliers de disques durs répartis un peu partout.
         </p>
 
         <p>
-            Nous avons ainsi saisi l’occasion de cette chronique, pour vous proposer un lm
+            Nous avons ainsi saisi l’occasion de cette chronique, pour vous proposer un film
             que nous avons aussi partager sur la loupe et pour lequel nous avons fait des
-            sous-titres en français fait maison qui jusque là n’existait pas. 
+            <b>sous-titres en français fait maison</b> qui jusque là n’existait pas. 
         </p>
 
         <p>
-            <b>Free, white and 21</b> qui est donc le titre de cette oeuvre réalisée par Howardena
-            Pindell en 1980 est aussi une phrase ancrée dans l’histoire populaire américaine
+            <b>Free, white and 21</b> qui est donc le titre de cette oeuvre réalisée par <b>Howardena
+            Pindell</b> en 1980 est aussi une phrase ancrée dans l’histoire populaire américaine
             depuis au moins 1828. A l’époque, la loi qui réglemente le droit de vote vient d’être
-            modi ée. Il ne faut désormais plus être propriétaire foncier pour pouvoir voter mais
+            modifiée. Il ne faut désormais plus être propriétaire foncier pour pouvoir voter mais
             « simplement » être libre, blanc·che et avoir 21 ans. L’esclavage est encore
-            pratiquée dans de nombreux états, la ségrégation est présente partout et cette
+            pratiqué dans de nombreux états, la ségrégation est présente partout et cette
             phrase devient alors l’expression emblématique pour parler de ceux et celle pour
             qui « tout est possible » et que rien ne pourra arrêter. Cent ans plus tard,
-            l’expression perdure et se retrouve dans de nombreux lms hollywoodiens 
-            entre lesannées ’20 et ’40 et y est particulièrement utilisé par les femmes blanches comme
-            un argument qui proclament tant leurs indépendances que leurs privilèges
+            l’expression perdure et se retrouve dans de nombreux films hollywoodiens 
+            entre les années ’20 et ’40 et y est particulièrement <b>utilisé par les femmes blanches comme
+            un argument qui proclame tant leurs indépendances que leurs privilèges.</b>
         </p>
 
         <p>
@@ -1046,25 +1097,28 @@ firstChronique.innerHTML = `
             elle a été confrontée en tant que femme noire en Amérique dès son plus jeune âge
             jusque dans son travail dans le monde de l’art et avec des féministes blanches. La
             vidéo s’ouvre sur le visage d’une femme blanche incarnée par l’artiste, portant une
-            perruque blonde, ressemblant aux personnages féminins de ces lms
+            perruque blonde, ressemblant aux personnages féminins de ces films
             hollywoodiens des années 40, et qui tout au long de la vidéo revient ponctuer
-            certaines des expériences racontées par Pindell en décrédibilisant son récit. « Vous
-            devez vraiment être paranoïaque. Votre art n'est pas vraiment politique non plus. »
+            certaines des expériences racontées par Pindell en décrédibilisant son récit.
         </p>
 
         <p>
-            À la n des années 1980, Free White and 21 se met à circuler grâce au bouche à
+            À la fin des années 1980, Free White and 21 se met à circuler grâce au bouche à
             oreille et est principalement diffusé dans les universités et les milieux militants. Ceci
             dit, à l’époque, elle fut le sujet de nombreuses critiques, dont de nombreux artistes
-            blanc·ches considérant que les histoires était exagérées et le propos déplacé. Pour
-            nous, ces images d’Howardena Pindell sont aussi importantes aujourd’hui qu’hier
+            blanc·ches considérant que les histoires était exagérées et le propos déplacé.
+         </p>
+
+         <p>
+
+            Pour nous, ces images d’Howardena Pindell sont aussi importantes aujourd’hui qu’hier
             et si elles ont fait un pas vers vos écran grâce aux inépuisables archives du web, à
             vous désormais de vous emparer et, si comme nous, vous l’estimez nécessaire, de
             les faire circuler et d’en parler.
         </p>
-
-        <p>Free White et 21 est disponible dès maintenant sur notre page viméo.</p>
-        <p>Bon film!</p>
+        <center>/</center><br>
+        <p>Si vous avez manqué à l'appel et que vous souhaitez voir ce film, n'hésitez pas à nous écrire.</p>
+        <br><br>
 
     </<div>
 
@@ -1086,6 +1140,7 @@ Array.from(allVideos).forEach(function(item){
     item.onended = function(){
         item.style.display = "none";
         item.load();
+        console.log('loop')
         item.pause()
         
         Array.from(videoContainer).forEach(function(element){
@@ -1118,7 +1173,7 @@ Array.from(allVideos).forEach(function(item){
     windowSize.addListener(move);
     
 
-
+    //Responsive Code
 if (window.screen.width < 600) {
 
     /* Container ici et la */
@@ -1198,12 +1253,11 @@ if (window.screen.width < 600) {
 
         removeSection.style.display = 'block';
         goBack.style.display = 'none';
-        removeLanguage.style.display = 'block'; 
-
-        
+        removeLanguage.style.display = 'block';  
 
     })
 
+    /* Follow */
     const follow = document.getElementById('follow');
     follow.addEventListener('click', function(){
 
@@ -1217,6 +1271,7 @@ if (window.screen.width < 600) {
 
     })
 
+    /* Random Places */
     const place = document.getElementsByClassName('place');
     console.log(place)
 
