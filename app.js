@@ -646,7 +646,13 @@ chroniques.map(function(element){
 
 screenContainer.addEventListener('click', function(){
     remove()
+    
     ecranFlottant.style.display = "block";
+    positionRandom()
+    
+    ecranFlottant.style.left = null;
+    ecranFlottant.style.top = vpos+"px"; 
+    ecranFlottant.style.right = hpos+"px";
     
     if (window.screen.width < 1025){
         goBack.style.display = "block";
@@ -972,11 +978,11 @@ firstVideo.innerHTML = `
 `
 
 secondVideo.innerHTML = `
-    <video src=${allMedia.ceci_videos.second_v} type="video/mp4" preload="auto" autoplay="false" ></video>
+    <video src=${allMedia.ceci_videos.second_v} type="video/mp4" preload="auto" ></video>
     <p class="copyright-video">Gutrug N°1 - Werner Nekes <i>1894</i></p>
 `
 thirdVideo.innerHTML = `
-    <video src=${allMedia.ceci_videos.third_v} type="video/mp4" preload="auto" autoplay="false" ></video>
+    <video src=${allMedia.ceci_videos.third_v} type="video/mp4" preload="auto" ></video>
     <p class="copyright-video">Ink in Milk - Gernot Wieland <i>2018</i></p>
 `
 fourthVideo.innerHTML = `
