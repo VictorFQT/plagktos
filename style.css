@@ -884,3 +884,40 @@ video:hover{
 } 
 
 
+/* Media Screen Scale*/
+
+/* GRAND ECRAN: ECHELLE 1.3 */
+    
+    
+@media only screen and (min-width: 1965px) {
+.scaledgrand {
+  transform: scale(1.3); /* Equal to scaleX(0.7) scaleY(0.7) */
+}
+    
+@media only screen and (min-height: 1700px) {
+.scaledgrand {
+  transform: scale(1.3); /* Equal to scaleX(0.7) scaleY(0.7) */
+
+}
+
+/* MOYEN ECRAN: ECHELLE 1.1 */
+@media only screen and (min-width: 1500px) {
+.scaledmoyen {
+  transform: scale(1.1); /* Equal to scaleX(0.7) scaleY(0.7) */
+}
+    
+    
+@media only screen and(max-width: 1131px) {
+.scaled {
+  transform: scale(0.8); /* Equal to scaleX(0.7) scaleY(0.7) */
+    }
+
+@media only screen and (max-height: 724px) {
+.scaled {
+  transform: scale(0.8); /* Equal to scaleX(0.7) scaleY(0.7) */
+
+}
+    
+
+    
+
