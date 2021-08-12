@@ -899,23 +899,26 @@ fourthProject.innerHTML = `
 //HTML Template Projects Videos
 
 firstVideoProject.innerHTML = `
-    <video src=${allMedia.project_videos.first_vp} type="video/mp4" preload="auto" ></video>
+    <video src=${allMedia.project_videos.first_vp} type="video/mp4" preload="auto" 
+    ></video>
     <p class="copyright-video">Asparagus - Suzan Pitt <i>1979</i></p>
 `
 
 secondVideoProject.innerHTML = `
-    <video src=${allMedia.project_videos.second_vp} type="video/mp4" preload="auto" ></video>
+    <video src=${allMedia.project_videos.second_vp} type="video/mp4" preload="auto" 
+    ></video>
     <p class="copyright-video">Salomé - Téo Hernandez <i>1976</i></p>
 `
 thirdVideoProject.innerHTML = `
-    <video src=${allMedia.project_videos.third_vp} type="video/mp4" preload="auto" ></video>
+    <video src=${allMedia.project_videos.third_vp} type="video/mp4" preload="auto" 
+    ></video>
     <p class="copyright-video">Brouillard Passage 14 - Alexandre Larose <i>2014</i></p>
 `
 fourthVideoProject.innerHTML = `
-    <video src=${allMedia.project_videos.fourth_vp} type="video/mp4" preload="auto" ></video>
+    <video src=${allMedia.project_videos.fourth_vp} type="video/mp4" preload="auto" 
+    ></video>
     <p class="copyright-video">Born in Flames - Lizzie Borden <i>1983</i></p>
 `
-
 
 //HTML Template for Ceci Videos
 
