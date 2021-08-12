@@ -404,7 +404,7 @@ section{
 
 /* Videos */
 
-video{
+.video-container video{
     width: 700px;
 }
 
