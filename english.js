@@ -648,6 +648,12 @@ screenContainer.addEventListener('click', function(){
     remove()
     ecranFlottant.style.display = "block";
     
+    positionRandom()
+    
+    ecranFlottant.style.left = null;
+    ecranFlottant.style.top = vpos+"px"; 
+    ecranFlottant.style.right = hpos+"px";
+    
     if (window.screen.width < 1025){
         goBack.style.display = "block";
     }
