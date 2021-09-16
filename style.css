@@ -59,6 +59,8 @@
 
 html,
 body{
+    position: relative;
+    display: block;
     width: 100%;
     height:100%;
     margin: 0;
@@ -193,7 +195,8 @@ header{
 /* About Plagktos */
 
 section{
-    position: absolute;
+    position: fixed;
+    display: block;
     left: 28px;
     top: 150px;
     width: 362px;
@@ -982,5 +985,7 @@ video:hover{
     }
 
 } 
+
+
 
 
